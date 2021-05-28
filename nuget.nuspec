@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <version>2.0.3</version>
+        <id>datatables.net-scroller-bm</id>
+        <description>This is Scroller for DataTables with styling for [Bulma](https://bulma.io/)</description>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-Scroller-Bulma.git"/>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>Scroller  Virtual Scrolling  Bulma  Datatables jQuery table</tags>
+        <dependencies>
+            <dependency id="datatables.net-scroller" version=">=2.0.3"/>
+            <dependency id="datatables.net-bm" version=">=1.10.24"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+    </metadata>
+    <files>
+        <file src="js/scroller.bulma.js" target="content\Scripts"/>
+        <file src="js/scroller.bulma.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/scroller.bulma.min.js" target="content\Scripts"/>
+        <file src="js/scroller.bulma.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/scroller.bulma.css" target="content\Content"/>
+        <file src="css/scroller.bulma.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/scroller.bulma.min.css" target="content\Content"/>
+        <file src="css/scroller.bulma.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="types/scroller.bulma.d.ts" target="content\Scripts"/>
+        <file src="types/scroller.bulma.d.ts" target="contentFiles\any\any\wwwroot\js"/>
+    </files>
+</package>
+

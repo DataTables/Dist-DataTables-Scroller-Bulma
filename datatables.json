@@ -1,0 +1,15 @@
+{
+    "js": [
+        "js/scroller.bulma.js",
+        "js/scroller.bulma.min.js"
+    ],
+    "css": [
+        "css/scroller.bulma.css",
+        "css/scroller.bulma.min.css"
+    ],
+    "types": [
+        "types/scroller.bulma.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/Scroller",
+    "last-tag": "2.0.3"
+}
