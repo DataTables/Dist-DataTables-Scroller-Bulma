@@ -3,6 +3,7 @@
     "description": "Scroller for DataTables with styling for [Bulma](https://bulma.io/)",
     "main": "js/scroller.bulma.js",
     "style": "css/scroller.bulma.css",
+    "types": "./types/scroller.bulma.d.ts",
     "version": "2.0.3",
     "files": [
         "css/**/*.css",
