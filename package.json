@@ -4,14 +4,14 @@
     "main": "js/scroller.bulma.js",
     "style": "css/scroller.bulma.css",
     "types": "./types/scroller.bulma.d.ts",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "Scroller",
- "Virtual Scrolling",
+        "Virtual Scrolling",
         "Bulma",
         "Datatables",
         "jQuery",
@@ -20,8 +20,6 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-scroller": ">=2.0.3",
-        "datatables.net-bm": ">=1.10.24",
         "jquery": ">=1.7"
     },
     "moduleType": [
