@@ -11,7 +11,7 @@
     ],
     "keywords": [
         "Scroller",
-        "Virtual Scrolling",
+ "Virtual Scrolling",
         "Bulma",
         "Datatables",
         "jQuery",
@@ -20,6 +20,8 @@
         "sort"
     ],
     "dependencies": {
+        "datatables.net-scroller": ">=2.0.4",
+        "datatables.net-bm": ">=1.10.26-dev",
         "jquery": ">=1.7"
     },
     "moduleType": [
