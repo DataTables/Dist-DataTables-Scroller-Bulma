@@ -4,14 +4,14 @@
     "main": "js/scroller.bulma.js",
     "style": "css/scroller.bulma.css",
     "types": "./types/scroller.bulma.d.ts",
-    "version": "2.0.4",
+    "version": "2.0.5",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "Scroller",
- "Virtual Scrolling",
+        "Virtual Scrolling",
         "Bulma",
         "Datatables",
         "jQuery",
