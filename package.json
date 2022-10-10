@@ -2,12 +2,14 @@
     "name": "datatables.net-scroller-bm",
     "description": "Scroller for DataTables with styling for [Bulma](https://bulma.io/)",
     "main": "js/scroller.bulma.js",
+    "module": "js/scroller.bulma.mjs",
     "style": "css/scroller.bulma.css",
     "types": "./types/scroller.bulma.d.ts",
     "version": "2.0.7",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
