@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-scroller-bm",
     "description": "Scroller for DataTables with styling for [Bulma](https://bulma.io/)",
-    "main": "js/scroller.bulma.js",
-    "module": "js/scroller.bulma.mjs",
-    "style": "css/scroller.bulma.css",
+    "main": "./js/scroller.bulma.js",
+    "module": "./js/scroller.bulma.mjs",
+    "style": "./css/scroller.bulma.css",
     "types": "./types/scroller.bulma.d.ts",
     "version": "3.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "Scroller",
@@ -35,5 +34,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/Scroller.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/scroller.bulma.d.ts",
+            "import": "./js/scroller.bulma.mjs",
+            "default": "./js/scroller.bulma.mjs",
+            "require": "./js/scroller.bulma.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/scroller.bulma.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
