@@ -38,9 +38,10 @@
     "exports": {
         ".": {
             "types": "./types/scroller.bulma.d.ts",
+            "style": "./css/scroller.bulma.css",
             "import": "./js/scroller.bulma.mjs",
-            "default": "./js/scroller.bulma.mjs",
-            "require": "./js/scroller.bulma.js"
+            "require": "./js/scroller.bulma.js",
+            "default": "./js/scroller.bulma.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
